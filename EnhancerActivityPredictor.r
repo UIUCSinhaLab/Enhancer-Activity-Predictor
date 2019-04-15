@@ -7,7 +7,7 @@ tissues = c("Meso","VM","SM")
 
 #load training data
 mesotab8 = read.delim( file.path(folder, "CAD4DmelEnhancers.txt"), comment.char="", quote="", sep="\t",header=T )
-train_data = data.matrix(mesotab8[,c(12:25)]) #14:27
+train_data = data.matrix(mesotab8[,c(12:25)]) #Dmel ChIP for 14 TF:TP conditions
 
 #load sample testing data
 ChIP=read.table("./data/DmelOrthChIP.txt",header=T)
