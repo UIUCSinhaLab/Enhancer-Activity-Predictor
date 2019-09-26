@@ -20,5 +20,6 @@ R packages: xgboost, DMwR
 `DmelOrthChIP.txt` is a sample input file for enhancer activity prediction. Columns 1-14 are TF-ChIP scores for D. melanogaster, and columns 15-28 are TF-ChIP scores for D. virilis. 
 
 ## Citation
-If you use the R script or the enhancer activity data, please cite.
+If you use the R script or the enhancer activity data, please cite this paper.
+Peng, Pei-Chen, et al. "The role of chromatin accessibility in cis-regulatory evolution." Genome biology and evolution 11.7 (2019): 1813-1828.
 
